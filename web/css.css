@@ -1,0 +1,9 @@
+/* 
+    Created on : 19-oct-2016, 21:06:25
+    Author     : Mike
+*/
+
+body{
+    background-image: url('fondo.jpg'); background-size: cover; text-align: center;
+    font-size: x-large;
+}

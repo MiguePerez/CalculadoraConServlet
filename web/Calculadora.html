@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CALCULADORA</h1>
+        <form method="POST" action='Calculadora'>                            
+            <BR/>Numero1:<input autofocus autocomplete="off" placeholder="Numerito 1" required type=NUMBER name="Numero1">
+            <BR/>Numero2:<input autocomplete="off" placeholder="Numerito 2" required type=NUMBER name="Numero2">            
+            <BR/>Suma<input type="Radio" name="opc" checked value="+"/>
+            <BR/>Resta<input type="Radio" name="opc" value="-"/>
+            <BR/>Multiplicacion<input type="Radio" name="opc" value="*"/>
+            <BR/>Division<input type="Radio" name="opc" value="/"/>
+            <BR/><input  type=submit value="Enviar Numeros">
+            <BR/><input type=reset value="Borrar">
+        </form>
+    </body>
+</html>
